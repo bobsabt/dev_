@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+body {
+  background-color: black;
+  background-image: url("./Pictures/4.jpg") ;
+
+  color: wheat;
+  z-index: 1;
+}
+
+.root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  
+  background-color: black;
+  max-width: 980px;
+  width: 100%;
+  height: 100%;
+  padding: 80px 20px 20px 20px;
+  z-index: 9999;
+}
+
+.profil-picture {
+  border: 2px solid wheat;
+  width: 240px;
+  height: 300px;
+}
+
+.description {
+  padding-top: 100px;
+}
+
+.description p {
+  font-size: 1.15rem;
+  padding-bottom: 20px;
+}
+
+.about-me{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid aliceblue;
+  background-color: aliceblue;
+  padding: 3px;
+}
+
+.icon-github{
+  padding: 0;
+  margin-right: 15px;
+}
+
+.download {
+  border: 2px solid wheat;
+  background-color: transparent;
+  color: aliceblue;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.download:hover  {
+  color: black;
+  background-color: wheat;
+  border: 2px solid white;
+}
+
+
+

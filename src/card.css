@@ -1,0 +1,96 @@
+.portfolio-container {
+
+    color: black;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.portfolio-title{
+    color: wheat;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio-container h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: wheat;
+    color: black;
+    border: 5px solid wheat;
+   
+
+    position: relative;
+}
+
+.card-image{
+    width: 100%;
+    height: 150px;
+   
+}
+
+.techniques {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 3px;
+}
+
+.techniques p{
+    font-size: 0.75rem;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+.techniques-javascript {
+    background-color: #FFFE71;
+}
+.techniques-react {
+    background-color: #AAE5FC;
+}
+.techniques-css {
+    background-color: #D9C4EC;
+}
+.techniques-html {
+    background-color: #FFCF62;
+}
+.techniques-typescript {
+    background-color: #B4CBF0;
+}
+.techniques-mui {
+    background-color: #FF9E79;
+}
+
+.project-name {
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+.start-btn{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 0 0 7px 7px;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

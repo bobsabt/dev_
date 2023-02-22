@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Product Catalog",
+        "techniques": ["JavaScript", "HTML", "CSS"],
+        "imgSRC": "productcatalog.png",
+        "link": "https://bobsabt.github.io/product_catalog/"
+    },
+    {
+        "id": 2,
+        "name": "Vendor Machine",
+        "techniques": ["TypeScript", "React", "CSS", "MUI"],
+        "imgSRC": "vendormachine.png",
+        "link": "https://bobsabt.github.io/vendor_machine/"
+    },
+    {
+        "id": 3,
+        "name": "WeatherApp",
+        "techniques": ["JavaScript", "React", "CSS"],
+        "imgSRC": "weatherapp.png",
+        "link": "https://bobsabt.github.io/weatherapp"
+    },
+    {
+        "id": 4,
+        "name": "Calculator",
+        "techniques": ["JavaScript", "React", "CSS"],
+        "imgSRC": "calculator.png",
+        "link": "https://bobsabt.github.io/mycalculator/"
+    },
+    {
+        "id": 5,
+        "name": "NumberToWord Converter",
+        "techniques": ["JavaScript", "React", "CSS"],
+        "imgSRC": "numbertoword.png",
+        "link": "https://bobsabt.github.io/numbertoword_converter/"
+    }   
+]

@@ -2,6 +2,7 @@ import React from 'react'
 
 const Card = ( {image, techniques, name, link} ) => { 
     const basePath = "./images/"
+    console.log(image)
   return (
     <div className='card'>
         <img className="card-image" src={`${basePath}${image}`} alt={name}/>

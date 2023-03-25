@@ -4,9 +4,6 @@ import Card from './Card'
 
 const Portfolio = () => {
 
-   
-    console.log(data)
-   
   return (
     <div className='portfolio-container'>
         <h1 className='portfolio-title'> Projects</h1>

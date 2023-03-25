@@ -1,6 +1,6 @@
-import React from 'react'
-import data from '../data.json'
-import Card from './Card'
+import React from 'react';
+import data from '../data.json';
+import Card from './Card';
 
 const Portfolio = () => {
 
@@ -22,4 +22,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Portfolio;

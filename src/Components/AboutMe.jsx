@@ -1,5 +1,5 @@
-import React from 'react'
-import Portfolio from './Portfolio'
+import React from 'react';
+import Portfolio from './Portfolio';
 import githubIcon from '../Pictures/github.png';
 import linkedinIcon from '../Pictures/linkedin.png';
 import profilePic from '../Pictures/profilepic.png';
@@ -43,4 +43,4 @@ const AboutMe = () => {
   )
 }
 
-export default AboutMe
+export default AboutMe;

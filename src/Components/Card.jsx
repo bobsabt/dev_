@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Card = ( {image, techniques, name, link} ) => { 
-    const basePath = "./images/"
+    const basePath = "./images/";
 
     return (
         <div className='card'>
@@ -19,4 +19,4 @@ const Card = ( {image, techniques, name, link} ) => {
     )
 }
 
-export default Card
+export default Card;

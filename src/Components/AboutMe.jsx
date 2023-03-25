@@ -4,7 +4,7 @@ import githubIcon from '../Pictures/github.png';
 import linkedinIcon from '../Pictures/linkedin.png';
 import profilePic from '../Pictures/profilepic.png';
 
-const PDF_FILE_URL = "http:/bit.ly/barbara_dev_cv";
+const PDF_FILE_URL = "https://www.dropbox.com/s/232fb4t0aokwia5/bodaibarbara_cv_2023.pdf?dl=1";
 
 const AboutMe = () => {
   const downloadCV = (url) => {
@@ -26,10 +26,10 @@ const AboutMe = () => {
           <div className='contact-box'>
             <button className='download' onClick={() => downloadCV(PDF_FILE_URL)}>Download CV</button>
           <div>
-            <a href="https://github.com/bobsabt/">
+            <a href="https://github.com/bobsabt/" target="_blank" rel="noreferrer">
               <img className="icon icon-github" src={githubIcon} alt="github" />
             </a>
-            <a href="https://www.linkedin.com/in/barbara-b%C3%B3dai-549601221/">
+            <a href="https://www.linkedin.com/in/barbara-b%C3%B3dai-549601221/" target="_blank" rel="noreferrer">
               <img className="icon" src={linkedinIcon} alt="linkedin" />
             </a>
           </div>
@@ -37,6 +37,7 @@ const AboutMe = () => {
       </div>
       <img className="profil-picture" src={profilePic} alt="profilepic" />
     </div>
+    <div className="divider div-transparent"></div>
     <Portfolio />
     </div>
   )

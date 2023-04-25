@@ -10,7 +10,7 @@
         "id": 2,
         "name": "RadioApp",
         "techniques": ["JavaScript", "React", "CSS"],
-        "imgSRC": "radioapp.png",
+        "imgSRC": "radio.png",
         "link": "https://bobsabt.github.io/radioapp/"
     },
     {

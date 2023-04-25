@@ -12,7 +12,7 @@ const Card = ( {image, techniques, name, link} ) => {
                 }
             </div>
             <h2 className='project-name'>{name}</h2>
-            <a href={link}>
+            <a href={link} target="_blank" rel="noreferrer">
                 <button className='start-btn'>START</button>
             </a>
         </div>
